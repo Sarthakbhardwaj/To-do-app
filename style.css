@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+    background-repeat:initial;
+    font-family: "Architects Daughter",sans-serif;
+    
+}
+header{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textinput{
+    margin-right: 5px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0px solid;
+    min-width: 350px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Architects Daughter";
+    font-size: 1.2rem;
+}
+.inputbtn{
+    padding: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color:aqua;
+}
+.inputbtn:hover{
+    cursor: pointer;
+    color: rgb(25, 45, 100);
+
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo{
+    margin: 0.5rem;
+    background: white;
+    padding-left:5px;   
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.45s ease;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.complete-btn{
+    background: aqua;
+    color: black;
+    border: 0px solid ;
+    padding: 1rem;
+}
+.complete-btn:hover{
+    background:green;
+    color: aqua;
+    cursor: pointer;
+}
+.delete-btn{
+    background: aqua;
+    color: rgb(131, 7, 7);
+    border: 0px solid ;
+    padding: 1rem; 
+}
+.delete-btn:hover{
+    background:rgb(22, 19, 46) ;
+    color: aqua;
+    cursor: pointer;
+}
+
+.fa-trash, 
+.fa-check{
+    pointer-events: none;
+}
+.fall{
+    transform: translate(8rem) rotatez(20deg);
+    opacity: 0.5;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
